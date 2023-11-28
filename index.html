@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    
+    <link rel="icon" type="image/x-icon" href="other/logo.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <a href="index.html" style="font-size: 30px; font-weight: bold; font-family: 'Poppins', sans-serif; color: rgb(0, 0, 0); text-decoration: none; " class="p-4 cursor-scale small1">AOI<span style="color: rgb(60, 0, 255);">.</span></a>   
+            </div>
+        </div>
+
+    </header>
+    
+    
+    <section class="homepage">
+
+        <div class="cursor"></div>
+        <div class="hero-text">
+            <div class="hero-text-content">
+                <a href="" style="text-decoration: none;"><h1 class="cursor-scale">Let's Chat</h1></a>
+            </div>
+        </div>
+        <div class="button"></div>
+            
+    </section>
+    <section>
+        
+    </section>
+
+
+    <section >
+        
+        <div class="container ">
+            <h2 class=" cursor-scale small1 text-center " style="font-family: 'Poppins', sans-serif;font-size: 44px;color: black;">Team<span style="color: blue;">.</span></h2>
+        </div>
+        <div class="row ">
+            <h2 class="cursor-scale small1" style="padding: 97px;font-family: 'Poppins', sans-serif;color: rgb(49, 49, 49);padding-right: 2px;">M.B Krithyvasas<span style="color: blue;" ><br><h6>(Team lead)</h6></span></h2>
+            <h2 class="cursor-scale small1" style="padding: 97px;font-family: 'Poppins', sans-serif;color: rgb(49, 49, 49);">Ashmon Sudharsanan <span style="color: blue;"><br><h6>(Team member)</h6></span></h2>
+            <h2 class="cursor-scale small1" style="padding: 97px;font-family: 'Poppins', sans-serif;color: rgb(49, 49, 49);padding-right: 41px;">Aaroan leo Biju <span style="color: blue;"><br><h6>(Team member)</h6></span></h2>
+            <h2 class="cursor-scale small1" style="padding: 97px;font-family: 'Poppins', sans-serif;color: rgb(49, 49, 49);">Alan Shaju <span style="color: blue;"><br><h6>(Team member)</h6></span></h2>
+            <h2 class="cursor-scale small1" style="padding: 97px;font-family: 'Poppins', sans-serif;color: rgb(49, 49, 49);padding-right: 186px;">Devapriya Shyju<span style="color: blue;"><br><h6>(Team member)</h6></span></h2>
+            <h2 class="cursor-scale small1" style="padding: 97px;font-family: 'Poppins', sans-serif;color: rgb(49, 49, 49);">Anitta Mathew<span style="color: blue;"><br><h6>(Team member)</h6></span></h2>
+            <h2 class="cursor-scale small1" style="padding: 97px;font-family: 'Poppins', sans-serif;color: rgb(49, 49, 49);">Anna Rose Antoo <span style="color: blue;"><br><h6>(Team member)</h6></span></h2>
+        </div>
+        
+    </section>
+    <section id="contact" class="p-5 cursor-scale small1" style="font-family: 'Poppins', sans-serif;">
+        <div class="container p-4">
+          <h1 class="text-center  ">Any suggestion <span style="color: rgb(76, 0, 255);">?</span></h1>
+          <div class="row">
+            <div class="col-md-12 p-5">
+              <form method="post" action="https://formspree.io/f/mnqyredg">
+                <div class="form-row">
+                  <div class="form-group col-md-6 ">
+                    <label for="inputEmail4">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="name" name="name">
+                  </div>
+                  
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6 ">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto">
+                  </div>
+                  
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Message</label>
+                  <textarea id="message" class="form-control" cols="30" rows="10"  name="message" placeholder="Type your message.."></textarea>
+                </div>
+  
+                </div>
+                
+                <button type="submit" class="btn btn-primary " id="btn" style="width: 100%;" >Sent</button>
+              </form>
+  
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--<section class="contact">
+
+        <div class="container">
+            <div class="row row-1">
+                <div class="design col">
+                    <div class="items">
+                        <h1 >Contact Us,</h1>
+                    </div>
+                    <div class="items">
+                        <h3>User interface</h3>
+                    </div>
+                    <div class="items">
+                        <h3>user experience</h3>
+                    </div>
+                    <div class="items">
+                        <h3>3Motion</h3>
+                    </div>
+                </div>
+                <div class="dev col">
+                    <div class="items">
+                        <p>Design</p>
+                    </div>
+                    <div class="item">
+                        <h1>Development</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-2">
+                <div class="log">
+                    <div class="item-main">
+                        <h1><a href="" style="text-decoration: none;color: #949f92;">Ash&copy; &#8600;</a></h1>
+                    </div>
+                    <div class="arrow">
+                        <div class="item-main">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>-->
+    
+
+    
+    <style>
+        @font-face {
+            font-family: maa;
+            src: url(Misto.woff);
+        
+        }
+        @font-face {
+            font-family: bebas;
+            src: url(Bebas-Regular.woff);
+        }
+        
+        
+    </style>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
